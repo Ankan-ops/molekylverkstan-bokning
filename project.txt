@@ -1,0 +1,20 @@
+
+
+PROJEKT PLANERING:
+
+
+MÅL
+
+Mälsättningen är att skapa ett bokningssystem för Molekylverkstan i Stenungsund. 
+I nuläget kan företag och privatpersoner boka tider för experiement och testning av material 
+(som i vanliga fall inte används eller visas under ordinarie öppetider).
+
+VAD VILL VI ÅSTADKOMMA I BÖRJAN ?
+
+ *  Vi vill skapa en miljö där vi kan pröva och hitta en lösning på problemet.
+ *  Hitta moduler inom wordpress komma igång för att spåna på idéer.
+ *  Skapa ett interaktivt system där Molekylverkstan kan underhålla bokningsystemet och dess data
+ *  
+
+
+
