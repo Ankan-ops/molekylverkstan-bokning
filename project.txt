@@ -14,7 +14,12 @@ VAD VILL VI ÅSTADKOMMA I BÖRJAN ?
  *  Vi vill skapa en miljö där vi kan pröva och hitta en lösning på problemet.
  *  Hitta moduler inom wordpress komma igång för att spåna på idéer.
  *  Skapa ett interaktivt system där Molekylverkstan kan underhålla bokningsystemet och dess data
- *  
+ 
+
+GITHUB SCRUM
+
+  För att göra arbetet så systematiskt som möjligt har vi skapat ett scrum workflow. 
+  I Github finns ett project för vårt repository 
 
 
 
