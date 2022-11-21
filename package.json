@@ -1,5 +1,27 @@
 {
+
+  "name": "molekylverkstan-bokning",
+  "description": "Bokningssystem för Molekylverkstan i Stenungsund.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankan-ops/molekylverkstan-bokning.git"
+  },
+  "author": "Ankan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankan-ops/molekylverkstan-bokning/issues"
+  },
+  "homepage": "https://github.com/Ankan-ops/molekylverkstan-bokning#readme",
+  
   "dependencies": {
-    "sass": "^1.56.1"
+  "minireset.css": "^0.0.7",
+  "sass": "^1.56.1"
   }
+
 }
