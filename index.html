@@ -1,75 +1,100 @@
-<!doctype html>
+<!DOCTYPE html>
 
-<html>
-
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
     <title>Page Title</title>
-<link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <header id="header-block">
-    <h1 class="header-1">Molekylverkstan</h1>
+      <h1 class="header-1">Molekylverkstan</h1>
     </header>
 
-<div class="nav-container">
-    <nav id="main-nav">
-
+    <div class="nav-container">
+      <nav id="main-nav">
         <a class="nav-link" href="bokning.html">Bokning</a>
         <a class="nav-link" href="">Bokning</a>
         <a class="nav-link" href="">Bokning</a>
         <a class="nav-link" href="">Bokning</a>
-    </nav>
-</div>
-        <h2>Bacon Ipsum</h2>
-        <section id="section-1">
+      </nav>
+    </div>
+    <h2>Bacon Ipsum</h2>
+    <section id="section-1">
+      <p class="paragraph">
+        Spicy jalapeno bacon ipsum dolor amet swine short ribs jowl, ball tip
+        ribeye short loin drumstick hamburger fatback.<br />
+        Flank burgdoggen buffalo ball tip pig strip steak ham hock turducken
+        short ribs tail. Capicola picanha frankfurter, <br />cow shank kevin
+        pork loin. Shankle ball tip filet mignon short ribs, brisket flank
+        frankfurter pig.
+      </p>
 
-            <p class="paragraph">Spicy jalapeno bacon ipsum dolor amet swine short ribs jowl, ball tip ribeye short loin drumstick hamburger fatback.<br> Flank burgdoggen buffalo ball tip pig strip steak ham hock turducken short ribs tail. Capicola picanha frankfurter, <br>cow shank kevin pork loin. Shankle ball tip filet mignon short ribs, brisket flank frankfurter pig.</p>
+      <p class="paragraph">
+        Spicy jalapeno bacon ipsum dolor amet swine short ribs jowl, ball tip
+        ribeye short loin drumstick hamburger fatback.<br />
+        Flank burgdoggen buffalo ball tip pig strip steak ham hock turducken
+        short ribs tail. Capicola picanha frankfurter, <br />cow shank kevin
+        pork loin. Shankle ball tip filet mignon short ribs, brisket flank
+        frankfurter pig.
+      </p>
+    </section>
+    <div class="wgt-block">
+      <!-- Calendly link widget begin -->
+      <link
+        href="https://assets.calendly.com/assets/external/widget.css"
+        rel="stylesheet"
+      />
+      <script
+        src="https://assets.calendly.com/assets/external/widget.js"
+        type="text/javascript"
+        async
+      ></script>
+      <a
+        class="wgt-btn"
+        href=""
+        onclick="Calendly.initPopupWidget({url: 'https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;"
+        >Boka Här</a
+      >
+      <!-- Calendly link widget end -->
+    </div>
+    <!-- Calendly inline widget begin -->
+    <div
+      class="calendly-inline-widget"
+      data-url="https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1"
+      style="min-width: 320px; height: 630px"
+    ></div>
+    <script
+      type="text/javascript"
+      src="https://assets.calendly.com/assets/external/widget.js"
+      async
+    ></script>
+    <!-- Calendly inline widget end -->
 
-            <p class="paragraph">Spicy jalapeno bacon ipsum dolor amet swine short ribs jowl, ball tip ribeye short loin drumstick hamburger fatback.<br> Flank burgdoggen buffalo ball tip pig strip steak ham hock turducken short ribs tail. Capicola picanha frankfurter, <br>cow shank kevin pork loin. Shankle ball tip filet mignon short ribs, brisket flank frankfurter pig.</p>
-
-        </section>
-
-<!-- Calendly inline widget begin -->
-<div class="calendly-inline-widget" data-url="https://calendly.com/alex-olsson03?hide_landing_page_details=1&amp;hide_gdpr_banner=1" style="min-width:320px;height:630px;"></div>
-<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async=""></script>
-<!-- Calendly inline widget end -->
-    
-
-<!-- Calendly badge widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<script type="text/javascript">window.onload = function() { Calendly.initBadgeWidget({ url: 'https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1', text: 'Schedule time with me', color: '#0069ff', textColor: '#ffffff', branding: true }); }</script>
-<!-- Calendly badge widget end -->
-
-
-<!-- Calendly link widget begin -->
-<link href="https://assets.calendly.com/assets/external/widget.css" rel="stylesheet">
-<script src="https://assets.calendly.com/assets/external/widget.js" type="text/javascript" async></script>
-<a href="" onclick="Calendly.initPopupWidget({url: 'https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1'});return false;">Boka här</a>
-<!-- Calendly link widget end -->
-
-
-
-
-
-
-
-
-
-</body>
-
-
-
-
-
-
-
-
+    <!-- Calendly badge widget begin -->
+    <link
+      href="https://assets.calendly.com/assets/external/widget.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://assets.calendly.com/assets/external/widget.js"
+      type="text/javascript"
+      async
+    ></script>
+    <script type="text/javascript">
+      window.onload = function () {
+        Calendly.initBadgeWidget({
+          url: "https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1",
+          text: "Boka Här",
+          color: "#0069ff",
+          textColor: "#ffffff",
+          branding: false,
+        });
+      };
+    </script>
+    <!-- Calendly badge widget end -->
+  </body>
 </html>
