@@ -11,7 +11,7 @@
 
   <body>
     <header id="header-block">
-      <h1 class="header-1">Molekylverkstan</h1>
+      <img width="400" height="92" src="https://www.molekylverkstan.se/wp-content/uploads/2022/04/meny_logo.png" class="header-1"></img>
     </header>
 
     <div class="nav-container">
@@ -42,6 +42,7 @@
         frankfurter pig.
       </p>
     </section>
+
     <div class="wgt-block">
       <!-- Calendly link widget begin -->
       <link
@@ -60,41 +61,20 @@
         >Boka Här</a
       >
       <!-- Calendly link widget end -->
-    </div>
-    <!-- Calendly inline widget begin -->
-    <div
-      class="calendly-inline-widget"
-      data-url="https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1"
-      style="min-width: 320px; height: 630px"
-    ></div>
-    <script
-      type="text/javascript"
-      src="https://assets.calendly.com/assets/external/widget.js"
-      async
-    ></script>
-    <!-- Calendly inline widget end -->
 
-    <!-- Calendly badge widget begin -->
-    <link
-      href="https://assets.calendly.com/assets/external/widget.css"
-      rel="stylesheet"
-    />
-    <script
-      src="https://assets.calendly.com/assets/external/widget.js"
-      type="text/javascript"
-      async
-    ></script>
-    <script type="text/javascript">
-      window.onload = function () {
-        Calendly.initBadgeWidget({
-          url: "https://calendly.com/alex-olsson03?hide_landing_page_details=1&hide_gdpr_banner=1",
-          text: "Boka Här",
-          color: "#0069ff",
-          textColor: "#ffffff",
-          branding: false,
-        });
-      };
-    </script>
-    <!-- Calendly badge widget end -->
+    </div>
+
+   <form action="db/databas.db">
+
+    <label for="first-name">Förnamn:</label>
+    <input type="text" id="first-name" name="fname"><br>
+    <label for="last-name">Efternamn:</label>
+    <input type="text" id="last-name" name="lname">
+
+
+   </form>
+    
+
+   
   </body>
 </html>

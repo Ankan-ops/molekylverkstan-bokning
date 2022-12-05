@@ -10,7 +10,7 @@ body {
 #header-block {
   display: flex;
   justify-content: center;
-  background-color: #7bdcb5;
+  background-color: #e2eed9;
 }
 
 h2 {
@@ -58,7 +58,7 @@ h2 {
   margin: 3rem 0 3rem 0;
 }
 .wgt-btn:hover {
-  transform: scale(1.15);
+  transform: scale(1.08);
 }
 
 .wgt-block {
