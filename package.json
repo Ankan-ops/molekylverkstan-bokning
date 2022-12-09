@@ -36,6 +36,8 @@
 
   "dependencies": {
 
+    "booking_calendar": "^1.0.22",
+
     "minireset.css": "^0.0.7",
 
     "sass": "^1.56.1",
